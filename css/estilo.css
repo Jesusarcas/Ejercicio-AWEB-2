@@ -1,0 +1,113 @@
+#secundario {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    background-color: #ffff55;
+    border: 1px solid #555555;
+    height: 850px;
+}
+
+#principal {
+    margin-left: 210px;
+    padding: 5px;
+    background-color: #ffffbb;
+    border: 1px solid #555555;
+    height: 850px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana;
+    font-size: 10px;
+    color: #666666;
+    background-color: #333333;
+}
+
+#contenido {
+    margin: 0 auto;
+    padding: 0px;
+    width: 750px;
+}
+
+html,
+body {
+    font-family: verdana;
+    font-size: 10px;
+    color: #666666;
+    background-color: #333333;
+    height: 100%;
+}
+
+#cabecera {
+    height: 60px;
+    padding-top: 15px;
+    color: black;
+    background-image: url(../imagenes/logocabecera.jpg);
+}
+
+#secundario ul {
+    list-style: none;
+    margin-left: 1em;
+    width: 130px;
+    border: 1px solid #7c7c7c;
+}
+
+#secundario h3 {
+    color: #b4045f;
+}
+
+#secundario ul li a {
+    padding: .2em 0 .2em 1.5em;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background: #f4f4f4;
+}
+
+#secundario ul li a:hover,
+ul li a:active {
+    background: #58fa58;
+}
+
+#principal img {
+    padding: 10px;
+    float: right;
+    width: 50%;
+}
+
+#principal h3 {
+    background: white;
+    color: #b4045f;
+}
+
+#pie {
+    clear: both;
+    background-color: #338000;
+    height: 30px;
+    color: white;
+    padding-top: 10px;
+    scroll-padding-left: 10px;
+}
+
+.enlaces {
+    float: left;
+}
+
+.enlaces a {
+    text-decoration: none; color: white;
+}
+
+.enlaces a:hover,
+a:active {
+    background-color: #336699;
+}
+
+.creador {
+    float: right;
+    margin-left: 13px;
+    margin-right: 10px;
+}
